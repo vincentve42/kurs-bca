@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
             
-            "FetchHtml\\" : "src/load_content/"
+            "FetchHtml\\" : "src/load_content/",
+            "Kurs\\" : "src/kurs/"
         },
         "classmap": []
         

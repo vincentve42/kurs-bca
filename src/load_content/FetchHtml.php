@@ -22,15 +22,28 @@ class FetchHtml
     public function FetchBca()
     {
 
+
         $data_html = file_get_contents($this->url);
 
         $this->data = $data_html;
 
+        libxml_use_internal_errors(true);
+
         $dom = new DOMDocument();
 
-        $this->data = $dom->loadHTML($data_html);
+        libxml_clear_errors();
 
+        $dom->loadHTML($data_html);
+        
+        $this->data = $dom;
         return $this->data;
+    }
+    public function __destruct()
+    {
+        $this->url = "https://www.bca.co.id/id/informasi/kurs";
+
+        $this->data = "";
+
     }
 }
 
