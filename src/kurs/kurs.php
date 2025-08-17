@@ -88,6 +88,7 @@ class Kurs
                  
             }
         }
+        return $this->passed_value;
     }
     public function buy_eur($method)
     {
@@ -696,6 +697,7 @@ class Kurs
                  
             }
         }
+        return $this->passed_value;
     }
     public function sell_eur($method)
     {

@@ -34,7 +34,8 @@ $kurs = new Kurs();
                 <th>USD</th>
                 <td><?php echo $kurs->buy_usd(0) . "\n"; ?></td>
                 <td><?php echo $kurs->buy_usd(1) . "\n"; ?></td>
-                <td><?php echo $kurs->buy_usd(2) . "\n"; ?></td>
+                <td><?php echo $kurs->buy_sgd(2) . "\n"; ?></td>
+                
             </tr>
              
              
