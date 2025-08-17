@@ -5,7 +5,7 @@ require './vendor/autoload.php';
 
 // Refresh
 
-header('Refresh : 3600');
+
 
 use DOMXPath;
 use FetchHtml\FetchHtml;
