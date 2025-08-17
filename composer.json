@@ -9,12 +9,13 @@
         "classmap": []
         
     },
+    "license": "Apache",
     "authors": [
         {
             "name": "vincentve42",
             "email": "vincentve42@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
