@@ -12,13 +12,16 @@ composer require sayuz/kurs-bca:dev-main
 
 <h3>
   Pemakaian
+  
 </h3>
-
+<p>buy_matauangnya($method)</p>
+<a href="https://www.bca.co.id/id/informasi/kurs"></a>
 
 
 ```
 $kurs = new Kurs();
 
 $kurs->buy_usd($method ); // 0 -> E- Money, 1 -> Trade di Teller, 2 -> Bank Notes
+$kurs->buy_sell($method ); // 0 -> E- Money, 1 -> Trade di Teller, 2 -> Bank Notes
 
 
