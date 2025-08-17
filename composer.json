@@ -14,6 +14,6 @@
             "FetchHtml\\" : "src/load_content/",
             "Kurs\\" : "src/kurs/"
         },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
