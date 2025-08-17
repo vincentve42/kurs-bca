@@ -10,16 +10,15 @@ composer require sayuz/kurs-bca:dev-main
 
 ```
 
-<h5>
+<h3>
   Pemakaian
-</h5>
-```
+</h3>
 
+
+
+```
 $kurs = new Kurs();
 
 $kurs->buy_usd($method ); // 0 -> E- Money, 1 -> Trade di Teller, 2 -> Bank Notes
-
-```
-
 
 
