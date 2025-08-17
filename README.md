@@ -15,7 +15,7 @@ composer require sayuz/kurs-bca:dev-main
   
 </h3>
 <p>buy_matauangnya($method)</p>
-<a href="https://www.bca.co.id/id/informasi/kurs"></a>
+<a href="https://www.bca.co.id/id/informasi/kurs">List Mata Uang</a>
 
 
 ```
