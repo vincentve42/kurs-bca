@@ -1,5 +1,6 @@
 {
     "name": "sayuz/kurs-bca",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             
