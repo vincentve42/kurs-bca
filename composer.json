@@ -1,22 +1,19 @@
 {
     "name": "sayuz/kurs-bca",
-    "version": "1.0",
-    "autoload": {
-        "psr-4": {
+    "description": "A tools that get information about money value, without api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vincentve",
+            "email": "vincentve42@gmail.com"
+        }
+    ],
+    "psr-4": {
             
             "FetchHtml\\" : "src/load_content/",
             "Kurs\\" : "src/kurs/"
         },
-        "classmap": []
-        
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "vincentve42",
-            "email": "vincentve42@gmail.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {}
 }
